@@ -1,0 +1,23 @@
+@import '../../global.scss';
+
+.reviews{
+     position: relative;
+     &__wrapper{
+           position: absolute;
+           top: 50%;
+           left: -3%;
+           transform: translate(50%, 50%);
+     }
+     &__logo{
+          width: 100px;
+          border-radius: 50%;
+     }
+     &__description{
+          width: 500px;
+     }
+
+     
+     
+     
+     
+}

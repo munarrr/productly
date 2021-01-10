@@ -1,0 +1,29 @@
+@import '../../../global.scss';
+
+.hero{
+     &__wrapper{
+          padding-top:67px;
+     }
+     &__title{
+          width: 585px;
+          font-family: $font;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 44px;
+          line-height: 54px;
+          color: #2F281E;
+     }
+     &__description{
+          width: 480px;
+          font-family: $font;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 28px;
+          color: #544837;
+     }
+     &__img{
+          width: 602px;
+          height: 500px;
+     }
+}

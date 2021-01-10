@@ -1,0 +1,28 @@
+@import '../../global.scss';
+
+.wrapper{
+     margin-top:25px;
+}
+.header{
+     &__link{
+          color: #2F281E;
+          margin-right: 28px;
+          font-style: normal;
+          font-weight: normal;
+          font-family: $font;
+          font-size: 16px;
+          line-height: 28px;
+          
+     }
+     &__link:hover{
+          color:$color-yellow;
+     }
+     &__nav{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+}
+
+
+
